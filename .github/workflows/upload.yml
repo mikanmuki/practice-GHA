@@ -11,7 +11,7 @@ jobs:
     steps:
       - run: |
           mkdir data
-          echo "<h1>Hi GitHub Pages!</h1>" > data/index.html          
+          echo "<h1>This is my GitHub TOP Pages!</h1>" > data/index.html          
       - uses: actions/upload-artifact@v3
         with:
           name: my_site
